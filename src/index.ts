@@ -1041,10 +1041,7 @@ export interface CreateDiscoveryRunRequest {
 
 export interface CreateDiscoveryRunResponse {
   status:
-    | 'pending'
-    | 'duplicate_owned'
-    | 'duplicate_unclaimed'
-    | 'validation_error';
+    'pending' | 'duplicate_owned' | 'duplicate_unclaimed' | 'validation_error';
   testRunId?: number;
   productId?: number;
   runnerId?: number;
@@ -3054,10 +3051,7 @@ export interface ScanBeginRequest {
 
 /** Terminal status a scan run is closed out with. */
 export type ScanCloseoutStatus =
-  | 'completed'
-  | 'stopped'
-  | 'cancelled'
-  | 'failed';
+  'completed' | 'stopped' | 'cancelled' | 'failed';
 
 export interface ScanEndRequest {
   /** Required for persona/scenario detection; omit (with runDetection:false) for pure closeout. */
