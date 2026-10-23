@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/testomniac_types",
-  "version": "0.0.110",
+  "version": "0.0.111",
   "description": "Shared TypeScript types for the Testomniac ecosystem",
   "type": "module",
   "main": "./dist/index.js",
@@ -39,11 +39,11 @@
   "author": "Sudobility",
   "license": "BUSL-1.1",
   "peerDependencies": {
-    "@sudobility/types": "^1.9.72"
+    "@sudobility/types": "^1.9.74"
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
-    "@sudobility/types": "^1.9.72",
+    "@sudobility/types": "^1.9.74",
     "@typescript-eslint/eslint-plugin": "^8.46.2",
     "@typescript-eslint/parser": "^8.46.2",
     "eslint": "^9.38.0",
